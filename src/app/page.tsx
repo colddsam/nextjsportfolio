@@ -5,6 +5,7 @@ import { VortexDemoSecond } from "@/components/Vertex";
 
 
 export default function Home() {
+
   return (
     <main className="h-auto w-screen box-border overflow-hidden flex flex-col">
       <IntroSection />

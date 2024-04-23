@@ -1,0 +1,47 @@
+[
+    {   "name":"Web Development",
+        "description":"Crafting seamless digital experiences across web.",
+        "image":"/images/web-development.png",
+        "percentage":"80%"
+    },
+    {   "name":"App Development",
+        "description":"Creating dynamic software for mobile platforms",
+        "image":"/images/development.png",
+        "percentage":"70%"
+    },
+    {   "name":"ML Engineering",
+        "description":"Crafting precise, data-driven intelligent systems.",
+        "image":"/images/ml.png",
+        "percentage":"75%"
+    },
+    {   "name":"Data Analysis",
+        "description":"Analyzing data for actionable insights efficiently.",
+        "image":"/images/development.png",
+        "percentage":"75%"
+    },
+    {   "name":"IOT",
+        "description":"Crafting smart systems for connectivity.",
+        "image":"/images/iot.png",
+        "percentage":"85%"
+    },
+    {   "name":"Automation",
+        "description":"Automating processes with efficient, intelligent systems.",
+        "image":"/images/automation.png",
+        "percentage":"90%"
+    },
+    {   "name":"Graphics Designing",
+        "description":"Creating visually stunning designs with precision.",
+        "image":"/images/graphic-designer.png",
+        "percentage":"90%"
+    },
+    {   "name":"API Building",
+        "description":"Crafting robust, scalable APIs for integration.",
+        "image":"/images/api.png",
+        "percentage":"80%"
+    },
+    {   "name":"Marketing",
+        "description":"Crafting compelling strategies for effective outreach.",
+        "image":"/images/social-media.png",
+        "percentage":"85%"
+    }
+]
