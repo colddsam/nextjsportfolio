@@ -3,7 +3,7 @@ import { PinContainer } from "@/components/ui/3d-pin";
 import Image from 'next/image';
 
 interface Skill {
-  name: string;
+  name: string ; 
   image: string;
   percentage: string;
   description: string;

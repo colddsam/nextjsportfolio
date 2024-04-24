@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Portfolio 1.0",
+    "link": "https://colddsam.vercel.app",
+    "thumbnail":
+      "/images/portfolio.png"
+  },
+  {
+    "title": "Local Store",
+    "link": "https://pypi.org/project/localstore/",
+    "thumbnail":
+      "/images/localstore.png"
+  },
+  {
+    "title": "Mode Yolo",
+    "link": "https://pypi.org/project/modeyolo/",
+    "thumbnail":
+      "/images/modeyolo.png"
+  },
+  {
+    "title": "Health Care Website",
+    "link": "https://health-care-website-beta.vercel.app/",
+    "thumbnail":
+      "/images/healthcare.png"
+  },
+  {
+    "title": "Travel Website",
+    "link": "https://github.com/colddsam/Travel-Website-using-Gemini.git",
+    "thumbnail":
+      "/images/travel-website.png"
+  },
+  {
+    "title": "Blog Automation",
+    "link": "https://github.com/colddsam/Blog-Automation.git",
+    "thumbnail":
+      "/images/blogautomation.jpg"
+  },
+  {
+    "title": "Health Care System",
+    "link": "https://github.com/colddsam/Health-Care-System.git",
+    "thumbnail":
+      "/images/health.jpg"
+  },
+  {
+    "title": "Breed Detection System",
+    "link": "https://github.com/colddsam/Flower-Classification-API.git",
+    "thumbnail":
+      "/images/breed.jpg"
+  },
+  {
+    "title": "Query Bot Website",
+    "link": "https://querybotcolddsam.netlify.app/",
+    "thumbnail":
+      "/images/speech2text.png"
+  },
+  {
+    "title": "Dynamic Ticket Sharing Software",
+    "link": "https://github.com/colddsam/Dynamic-Ticket-Sharing-Software-using-Python.git",
+    "thumbnail":
+      "/images/ticket.jpg"
+  }
+
+]

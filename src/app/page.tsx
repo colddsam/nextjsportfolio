@@ -1,5 +1,6 @@
 "use client"
 import { IntroSection } from "@/components/Home";
+import { HeroParallaxDemo } from "@/components/Parallax";
 import { AnimatedPinDemo } from "@/components/TestSkiLL";
 import { VortexDemoSecond } from "@/components/Vertex";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <IntroSection />
       <VortexDemoSecond />
       <AnimatedPinDemo/>
+      <HeroParallaxDemo/>
     </main>
   );
 }
