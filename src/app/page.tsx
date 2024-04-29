@@ -1,18 +1,23 @@
 "use client"
-import { IntroSection } from "@/components/Home";
-import { HeroParallaxDemo } from "@/components/Parallax";
-import { AnimatedPinDemo } from "@/components/TestSkiLL";
-import { VortexDemoSecond } from "@/components/Vertex";
+
+import { BentoGridDemo } from "@/pages/Achivements";
+import { GoogleGeminiEffectDemo } from "@/pages/Gemini";
+import { IntroSection } from "@/pages/Home";
+import { HeroParallaxDemo } from "@/pages/Parallax";
+import { AnimatedPinDemo } from "@/pages/Skill";
+import { VortexDemoSecond } from "@/pages/Vertex";
 
 
 export default function Home() {
 
   return (
-    <main className="h-auto w-screen box-border overflow-hidden flex flex-col">
+    <main className="h-auto w-screen box-border flex flex-col">
       <IntroSection />
       <VortexDemoSecond />
       <AnimatedPinDemo/>
       <HeroParallaxDemo/>
+      <GoogleGeminiEffectDemo/>
+      <BentoGridDemo/>
     </main>
   );
 }

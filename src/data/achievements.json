@@ -1,0 +1,58 @@
+[
+    {
+        "title":"Campus Ambassador IIT Madras",
+        "description":"I was elected as a Campus Ambassador of IIT Madras. Here I learn about marketing and PR management",
+        "header":"/images/achievements/iitm.jpg",
+        "date":"11/01/2023"
+    },
+    {
+        "title":"Fastest Coder Hackathon",
+        "description":"This hackathon was organized by microsoft azure here we created a weather forecasting application using python",
+        "header":"/images/achievements/fastest.jpeg",
+        "date":"28/07/2023"
+    },
+    {
+        "title":"House of Hackers",
+        "description":"This hackathon was organized by IIIT Ranchi here we created a sign language detection application using resnet architecture",
+        "header":"/images/achievements/hoh.jpg",
+        "date":"25/04/2023"
+    },
+    {
+        "title":"Intern Asiana Times",
+        "description":"I was selected as a Graphic Designing intern in Asiana Times which is digital newspaper agency.",
+        "header":"/images/achievements/asianatimes.jpeg",
+        "date":"11/01/2023"
+    },
+    {
+        "title":"Core Member H4B 3.0",
+        "description":"I have selected as a core team member in graphics designing for Hack4Bengal 3.0",
+        "header":"/images/achievements/h4b.jpeg",
+        "date":"11/01/2023"
+    },
+    {
+        "title":"Hack NIT Rourkela",
+        "description":"Here we have created a travel website using weight base recommendation system and also enhance search feature",
+        "header":"/images/achievements/hnitr.jpg",
+        "date":"07/03/2024"
+    },
+    {
+        "title":"9th in Smart Bengal Hackathon",
+        "description":"We have successfully secured 9th position on smart bengal hackathon 2024 here we created a portable ventilation support system",
+        "header":"/images/achievements/sbh.jpg",
+        "date":"17/04/2024"
+    },
+    {
+        "title":"SIT ICOE Hackathon",
+        "description":"We have successfully secure 60% during the SIT IOCE hackathon organized by SAP community",
+        "header":"/images/achievements/sit.jpg",
+        "date":"20/04/2024"
+    },
+    {
+        "title":"Runners Up in E-Camp",
+        "description":"we secured second position in entrepreneurship camp organized by west bengal government",
+        "header":"/images/achievements/ec.jpg",
+        "date":"28/08/2022"
+    }
+
+    
+]
