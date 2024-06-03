@@ -22,13 +22,12 @@ export function AnimatedPinDemo() {
       })
       .then(data => {
         setData(data)
-        console.log(data);
       })
       .catch(error => console.error('Error fetching skills:', error));
   }, []); 
 
   return (
-    <div className="h-full md:h-screen w-screen relative flex p-4 flex-wrap items-center justify-center">
+    <div className="h-full md:h-screen w-screen relative flex p-4 flex-wrap items-center justify-center mb-12">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       {data ? data.map((item,index)=>(
         

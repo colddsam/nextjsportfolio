@@ -15,15 +15,16 @@ export function IntroSection() {
             <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                 Hey Devs!!! <br /> This Side Samrat :)
             </h1>
-            <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
+            <p className="mt-4 font-normal text-sm md:text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
                 A ML developer with a knack for problem-solving and a passion for continuous learning. Currently pursuing my B-Tech in ECE at Narula Institute of Technology, Kolkata. Let&apos;s connect and explore the world of tech together!
-            </p>
+              </p>
+              
         <div className="mt-5 flex flex-row justify-center items-center">
             <Link href='https://drive.google.com/file/d/10jZy-G-tbZZqSadPt_Yf8u6PKhIkpyfC/view?usp=sharing'>
                 <HoverBorderGradient
                     containerClassName="rounded-full"
                     as="button"
-                    className="dark:bg-black bg-white text-black dark:text-white flex items-center"
+                    className="dark:bg-black bg-white text-sm md:text-base text-black dark:text-white flex items-center"
                 >
                 <span>My Resume</span>
                 </HoverBorderGradient>

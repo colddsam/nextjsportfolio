@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "name":"No Code November",
+        "community":"GDC Kolkata",
+        "image":"/images/events/gdgcloudkol.webp"
+    },
+        {
+        "id":2,
+        "name":"Droid Fest 2023",
+        "community":"Kotlin Group Kolkata",
+        "image":"/images/events/droidfest.webp"
+    },
+    {
+        "id":3,
+        "name":"CCD 2023",
+        "community":"GDC Kolkata",
+        "image":"/images/events/ccd.webp"
+    },
+    {
+        "id":4,
+        "name":"Hack 4 Bengal 2.0",
+        "community":"H4B Community",
+        "image":"/images/events/h4b.jpg"
+    },
+    {
+        "id":5,
+        "name":"I/O Extended GDG",
+        "community":"GDG Kolkata",
+        "image":"/images/events/io.webp"
+    },
+    {
+        "id":6,
+        "name":"Fastn Roadshow",
+        "community":"Fastn India",
+        "image":"/images/events/fastn.webp"
+    },
+    {
+        "id":7,
+        "name":"Keras Community Day",
+        "community":"TFUG kolkata",
+        "image":"/images/events/KERAS.webp"
+    },
+    {
+        "id":8,
+        "name":"DevFest Ranchi 2023",
+        "community":"GDG Ranchi",
+        "image":"/images/events/devfest.webp"
+    },
+    {
+        "id":9,
+        "name":"DevFest Durgapur 2023",
+        "community":"GDG Durgapur",
+        "image":"/images/events/devdurg.jpg"
+    },
+    {
+        "id":10,
+        "name":"DevFest Kolkata 2023",
+        "community":"GDG Kolkata",
+        "image":"/images/events/devkol.png"
+    },
+        {
+        "id":11,
+        "name":"Droid Fest 2024",
+        "community":"Kotlin Group Kolkata",
+        "image":"/images/events/droid.jpg"
+    }
+]

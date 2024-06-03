@@ -1,63 +1,104 @@
 [
   {
     "title": "Portfolio 1.0",
+    "sub":"Portfolio website with basic Html,CSS,JavaScript",
+    "date":"29/11/2023",
+    "language":"Html, CSS, JavaScript",
     "link": "https://colddsam.vercel.app",
     "thumbnail":
-      "/images/projects/portfolio.png"
+      "/images/projects/portfolio.png",
+    "logo":"/images/skills/web-development.png"
   },
   {
     "title": "Local Store",
+    "sub":"LocalStore Python library manages database inventory efficiently.",
+    "date":"27/01/2024",
+    "language":"Python",
     "link": "https://pypi.org/project/localstore/",
     "thumbnail":
-      "/images/projects/localstore.png"
+      "/images/projects/localstore.png",
+    "logo":"/images/skills/cubes.png"
   },
   {
     "title": "Mode Yolo",
+    "sub":"ModeYOLO: Boost image processing with versatile Python package.",
+    "date":"30/03/2024",
+    "language":"Python",
     "link": "https://pypi.org/project/modeyolo/",
     "thumbnail":
-      "/images/projects/modeyolo.png"
+      "/images/projects/modeyolo.png",
+    "logo":"/images/skills/cubes.png"
   },
   {
     "title": "Health Care Website",
+    "sub":"It is a health care website for our Health Mate Device",
+    "date":"19/04/2024",
+    "language":"React JS",
     "link": "https://health-care-website-beta.vercel.app/",
     "thumbnail":
-      "/images/projects/healthcare.png"
+      "/images/projects/healthcare.png",
+    "logo":"/images/skills/web-development.png"
+
   },
   {
     "title": "Travel Website",
+    "sub":"This website is made with Gemini API",
+    "date":"03/03/2024",
+    "language":"React JS, Python",
     "link": "https://github.com/colddsam/Travel-Website-using-Gemini.git",
     "thumbnail":
-      "/images/projects/travel-website.png"
+      "/images/projects/travel-website.png",
+    "logo":"/images/skills/web-development.png"
   },
   {
     "title": "Blog Automation",
+    "sub":"Automating blog creation with AI, Google's Generative AI, and Unsplash.",
+    "date":"17/04/2024",
+    "language":"Python, Node JS, GraphQL",
     "link": "https://github.com/colddsam/Blog-Automation.git",
     "thumbnail":
-      "/images/projects/blogautomation.jpg"
+      "/images/projects/blogautomation.jpg",
+      "logo":"/images/skills/automation.png"
   },
   {
     "title": "Health Care System",
+    "sub":"It is the backend for our Health Care monitoring system",
+    "date":"18/04/2024",
+    "language":"Python, Node JS, Docker",
     "link": "https://github.com/colddsam/Health-Care-System.git",
     "thumbnail":
-      "/images/projects/health.jpg"
+      "/images/projects/health.jpg",
+    "logo":"/images/skills/automation.png"
   },
   {
     "title": "Breed Detection System",
+    "sub":" TensorFlow based RESTful API to classify Dog categories.",
+    "date":"17/01/2024",
+    "language":"Python, Docker",
     "link": "https://github.com/colddsam/Flower-Classification-API.git",
     "thumbnail":
-      "/images/projects/breed.jpg"
+      "/images/projects/breed.jpg",
+    "logo":"/images/skills/ml.png"
   },
   {
     "title": "Query Bot Website",
+    "sub":"It can process image, audio, text and video and process its query",
+    "date":"30/12/2023",
+    "language":"React JS, Python",
     "link": "https://querybotcolddsam.netlify.app/",
     "thumbnail":
-      "/images/projects/speech2text.png"
+      "/images/projects/speech2text.png",
+      "logo":"/images/skills/automation.png"
   },
   {
     "title": "Dynamic Ticket Sharing Software",
+    "sub":"This application is for event registration purpose",
+    "date":"06/11/2023",
+    "language":"Python, Flutter, Firebase",
     "link": "https://github.com/colddsam/Dynamic-Ticket-Sharing-Software-using-Python.git",
     "thumbnail":
-      "/images/projects/ticket.jpg"
+      "/images/projects/ticket.jpg",
+      "logo":"/images/skills/development.png"
   }
 
 ]

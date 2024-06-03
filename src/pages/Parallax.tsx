@@ -18,9 +18,8 @@ export function HeroParallaxDemo() {
       })
       .then(data => {
         setData(data)
-        console.log(data);
       })
       .catch(error => console.error('Error fetching projects:', error));
   }, []);
-  return data?<HeroParallax products={data} />:'';
+  return data?<HeroParallax products={data}/>:'';
 }

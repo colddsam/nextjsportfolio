@@ -41,12 +41,11 @@ export function BentoGridDemo() {
       })
       .then(data => {
         setData(data)
-        console.log(data);
       })
       .catch(error => console.error('Error fetching skills:', error));
   },[])
   return (
-    <div className="w-screen flex flex-col items-center justify-center mt-10 mb-10 p-6">
+    <div className="w-screen flex flex-col relative items-center justify-center mt-10 mb-10 p-6">
       <BentoGrid className="max-w-4xl mx-auto">
       {data?data.map((item, i) => (
         <BentoGridItem

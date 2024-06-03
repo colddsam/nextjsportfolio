@@ -18,7 +18,7 @@ export function GoogleGeminiEffectDemo() {
 
   return (
     <div
-      className="h-[400vh] w-full overflow-clip"
+      className="h-[400vh] relative  w-full overflow-clip pt-[33.33%] md:pt-[15%] bg-black"
       ref={ref}
     >
       <GoogleGeminiEffect
