@@ -9,7 +9,7 @@ interface Skill {
   description: string;
 }
 
-export function AnimatedPinDemo() {
+export default function AnimatedPinDemo() {
   const [data, setData] = useState<Skill[] | null>(null);
 
   useEffect(() => {

@@ -12,7 +12,7 @@ interface Project{
   logo: string;
 }
 
-export function InfiniteMovingCardsDemo() {
+export default function InfiniteMovingCardsDemo() {
   const [data, setData] = useState<Project[]|null>(null);
     useEffect(() => {
     fetch('/api/projects')

@@ -4,7 +4,7 @@ import { Spotlight } from "@/components/Spotlight";
 import { HoverBorderGradient } from "@/components/hover-border-gradient";
 import Link from "next/link";
 
-export function IntroSection() {
+export default function IntroSection() {
   return (
     <div className="h-screen w-full rounded-md flex flex-col items-center justify-center bg-black/[0.96] antialiased bg-grid-white/[0.075] relative overflow-hidden">
         <Spotlight

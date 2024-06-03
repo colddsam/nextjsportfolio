@@ -29,7 +29,7 @@ interface Achievements {
   date: string;
 }
 
-export function BentoGridDemo() {
+export default function BentoGridDemo() {
   const [data,setData]=useState<Achievements[]|null>(null)
   useEffect(() => {
     fetch('/api/achievements')

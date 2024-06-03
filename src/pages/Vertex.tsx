@@ -1,7 +1,7 @@
 import React from "react";
 import { Vortex } from "@/components/vortex";
 
-export function VortexDemoSecond() {
+export default function VortexDemoSecond() {
   return (
     <div className="w-screen mx-auto rounded-md h-screen overflow-hidden">
       <Vortex

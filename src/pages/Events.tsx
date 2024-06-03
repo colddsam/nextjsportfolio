@@ -10,7 +10,7 @@ interface Events {
   image: string;
 }
 
-export function BackgroundBeamsDemo() {
+export default function BackgroundBeamsDemo() {
 const [data,setData]=useState<Events[]|null>(null)
   useEffect(() => {
     fetch('/api/events')

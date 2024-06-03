@@ -6,7 +6,7 @@ interface Projects {
   link: string;
   thumbnail: string;
 }
-export function HeroParallaxDemo() {
+export default function HeroParallaxDemo() {
   const [data, setData] = useState<Projects[] | null>(null);
   useEffect(() => {
     fetch('/api/projects')
