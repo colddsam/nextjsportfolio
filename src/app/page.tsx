@@ -21,7 +21,7 @@ export default function Home() {
       <LoadingProvider>
         <Suspense fallback={<LoadingFallback />}>
           <IntroSection />
-          {/* <VortexDemoSecond />
+          <VortexDemoSecond />
           <AnimatedPinDemo/>
           <HeroParallaxDemo />
           <InfiniteMovingCardsDemo/>
@@ -29,7 +29,7 @@ export default function Home() {
           <BentoGridDemo/>
           <BackgroundBeamsDemo/>
           <GlobeDemo/>
-          <SignupFormDemo /> */}
+          <SignupFormDemo />
         </Suspense>
       </LoadingProvider>
     </main>
