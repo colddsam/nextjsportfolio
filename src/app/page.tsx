@@ -12,8 +12,8 @@ import BackgroundBeamsDemo from "@/pages/Events";
 import GlobeDemo from "@/pages/GitHubGlobe";
 import SignupFormDemo from "@/pages/SignUp";
 import MultiStepLoaderDemo from "@/pages/Loading"
-import { WavyBackgroundDemo } from '@/pages/Experience';
-import { StickyScrollRevealDemo } from '@/pages/ExperienceGrid';
+import  WavyBackgroundDemo  from '@/pages/Experience';
+import  StickyScrollRevealDemo  from '@/pages/ExperienceGrid';
 
 export default function Home() {
 
