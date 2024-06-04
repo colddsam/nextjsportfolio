@@ -77,7 +77,7 @@ interface Experiences {
   time: string;
   link: string;
 }
-export function StickyScrollRevealDemo() {
+export default function StickyScrollRevealDemo() {
 const [data,setData]=useState<Experiences[]|null>(null)
   useEffect(() => {
     fetch('/api/experiences')
