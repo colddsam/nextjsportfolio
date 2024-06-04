@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import {Highlight} from "@/components/hero-highlight"
+
 import {
   motion,
   useScroll,
@@ -57,7 +59,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[450vh] md:h-[350vh] py-20 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-transparent"
+      className="h-[2250px] md:h-[350vh] md:py-20 py-0 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-transparent box-border w-screen overflow-hidden"
     >
       <Header />
       <motion.div
@@ -103,12 +105,12 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-40 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-40 px-4 left-0 top-0 h-screen w-screen ">
       <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
         Projects
       </h1>
       <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-        Welcome to my creative hub! Here, innovation thrives, and projects come to life with passion and purpose. Join me on a journey through a world where imagination knows no limits.
+        Welcome to my <Highlight className="text-black dark:text-white">creative hub.</Highlight>! Here, innovation thrives, and projects come to life with passion and purpose. Join me on a journey through a world <Highlight className="text-black dark:text-white">where imagination knows no limits.</Highlight>
       </p>
     </div>
   );

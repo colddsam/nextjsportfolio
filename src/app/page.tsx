@@ -11,18 +11,22 @@ import VortexDemoSecond from "@/pages/Vertex";
 import BackgroundBeamsDemo from "@/pages/Events";
 import GlobeDemo from "@/pages/GitHubGlobe";
 import SignupFormDemo from "@/pages/SignUp";
-import MultiStepLoaderDemo from "@/pages/Loading";
-
+import MultiStepLoaderDemo from "@/pages/Loading"
+import { WavyBackgroundDemo } from '@/pages/Experience';
+import { StickyScrollRevealDemo } from '@/pages/ExperienceGrid';
 
 export default function Home() {
 
   return (
-    <main className="h-auto w-screen box-border flex flex-col bg-black">
+    <main className="h-auto w-screen flex box-border flex-col bg-black ">
+
       <LoadingProvider>
         <Suspense fallback={<LoadingFallback />}>
           <IntroSection />
           <VortexDemoSecond />
-          <AnimatedPinDemo/>
+          <AnimatedPinDemo />
+            <WavyBackgroundDemo/>
+          <StickyScrollRevealDemo/>
           <HeroParallaxDemo />
           <InfiniteMovingCardsDemo/>
           <GoogleGeminiEffectDemo/>
@@ -42,8 +46,8 @@ const LoadingFallback = () => {
   useEffect(() => {
     let progress = 0;
     const interval = setInterval(() => {
-      progress += 10;
-      if (progress > 100) progress = 100;
+      progress += 1;
+      if (progress > 10) progress = 10;
       setLoadingProgress(progress);
     }, 500);
 

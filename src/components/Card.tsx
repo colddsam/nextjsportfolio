@@ -1,5 +1,6 @@
 import React from "react";
 import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
+import Link from "next/link";
 
 export default function App({item}:Readonly<{
   item:{
@@ -14,7 +15,7 @@ export default function App({item}:Readonly<{
 }>) {
   return (
     <Card isFooterBlurred className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 md:w-[450px] col-span-12 sm:col-span-7 md:h-[300px] h-[250px] overflow-hidden">
-      <CardHeader className="h-1/4 absolute bg-black/40 z-10 top-0 flex-col items-start">
+      <CardHeader className="h-auto md:h-1/4 absolute bg-black/40 z-10 top-0 flex-col items-start">
         <p className="text-tiny text-white/60 uppercase font-bold truncate w-[90%]">{item.sub}</p>
         <h4 className="text-white/90 font-medium text-xl">{item.title}</h4>
       </CardHeader>
@@ -36,7 +37,10 @@ export default function App({item}:Readonly<{
             <p className="text-tiny text-white/60">{item.language}</p>
           </div>
         </div>
+        <Link href={item.link}>
         <Button radius="full" size="sm">View</Button>
+
+        </Link>
       </CardFooter>
     </Card>
   );

@@ -2,6 +2,7 @@
 import { cn } from "@/utils/cn";
 import { motion, MotionValue } from "framer-motion";
 import React from "react";
+import {Highlight} from "@/components/hero-highlight"
 
 const transition = {
   duration: 0,
@@ -24,9 +25,10 @@ export const GoogleGeminiEffect = ({
       <p className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
         {title || `Achievements`}
       </p>
-      <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-        {description ||
-          `Driven by passion, defined by results. Explore my journey of turning aspirations into accomplishments in the achievement section.`}
+      <p className="mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto px-3">
+        <Highlight className="text-black dark:text-white">Driven by passion, defined by results.
+        </Highlight> Explore my journey of turning aspirations into accomplishments in the <Highlight className="text-black dark:text-white">achievement section.
+        </Highlight>
       </p>
       <svg
         width="1440"
