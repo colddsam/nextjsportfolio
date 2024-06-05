@@ -15,7 +15,7 @@ import MultiStepLoaderDemo from "@/pages/Loading"
 import  WavyBackgroundDemo  from '@/pages/Experience';
 import StickyScrollRevealDemo from '@/pages/ExperienceGrid';
 import { FloatingNav } from "@/components/floating-navbar";
-import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium } from "@tabler/icons-react";
+import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium,IconBrandGithub } from "@tabler/icons-react";
 
 const navItems = [
     {
@@ -29,7 +29,7 @@ const navItems = [
       name: "Gitub",
       link: "https://github.com/colddsam",
       icon: (
-        <IconMail  className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconBrandGithub  className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
     {

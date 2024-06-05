@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { WavyBackground } from "@/components/wavy-background";
+import {Highlight} from "@/components/hero-highlight"
 
 export default function WavyBackgroundDemo() {
   return (
@@ -9,7 +10,7 @@ export default function WavyBackgroundDemo() {
             Experience
         </h1>
       <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-        Throughout my journey {`let's`} talk about some experiences that I gained from my work
+        Throughout my <Highlight className="text-black dark:text-white">journey</Highlight> {`let's`} talk about some experiences that I gained from my <Highlight className="text-black dark:text-white">work</Highlight>
       </p>
     </WavyBackground>
   );

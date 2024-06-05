@@ -93,7 +93,7 @@ export const StickyScroll = ({
                 }}
                 className="text-sm font-bold text-slate-100"
               >
-                {item.title}
+                {item.time}
               </motion.h3>
               <motion.p
                 initial={{

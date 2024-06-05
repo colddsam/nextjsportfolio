@@ -1,6 +1,7 @@
 import React from "react";
 import { Vortex } from "@/components/vortex";
-import {Highlight} from "@/components/hero-highlight"
+import { Highlight } from "@/components/hero-highlight"
+
 export default function VortexDemoSecond() {
   return (
     <div className="w-screen mx-auto rounded-md h-screen overflow-hidden">
@@ -15,8 +16,7 @@ export default function VortexDemoSecond() {
             Skills
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-          Strength lies in mastering oneself, adaptability in mastering change, and <Highlight className="text-black dark:text-white">success in mastering both.
-        </Highlight>
+          <Highlight className="text-black dark:text-white">Strength</Highlight> lies in mastering oneself, adaptability in mastering change, and <Highlight className="text-black dark:text-white">success</Highlight> in mastering both.
         </p>
       </Vortex>
     </div>
