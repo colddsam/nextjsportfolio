@@ -16,7 +16,6 @@ import  WavyBackgroundDemo  from '@/pages/Experience';
 import StickyScrollRevealDemo from '@/pages/ExperienceGrid';
 import { FloatingNav } from "@/components/floating-navbar";
 import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium,IconBrandGithub } from "@tabler/icons-react";
-
 const navItems = [
     {
       name: "Mail",
@@ -67,7 +66,6 @@ export default function Home() {
 
       <LoadingProvider>
         <Suspense fallback={<LoadingFallback />}>
-        {/* <Suspense fallback={<LoadingFallback />}> */}
           <FloatingNav navItems={navItems} />
           <IntroSection />
           <VortexDemoSecond />

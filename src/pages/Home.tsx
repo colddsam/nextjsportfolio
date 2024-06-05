@@ -33,7 +33,7 @@ export default function IntroSection() {
                 <HoverBorderGradient
                     containerClassName="rounded-full"
                     as="button"
-                    className="bg-black  text-sm md:text-base text-white flex items-center"
+                    className="bg-zinc-900 text-sm md:text-base text-white flex items-center"
                 >
                 <span>My Resume</span>
                 </HoverBorderGradient>

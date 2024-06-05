@@ -1,15 +1,53 @@
 "use client";
-import React from "react";
+import React,{useState} from "react";
 import { Label } from "@/components/label";
 import { Input } from "@/components/input";
 import { cn } from "@/utils/cn";
 import { HeroHighlight } from "@/components/hero-highlight";
 
 export default function SignupFormDemo() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log("Form submitted");
-  };
+  const [first, setFirst] = useState('');
+  const [second, setSecond] = useState('');
+  const [email, setEmail] = useState('');
+  const [designation, setDesignation] = useState('');
+  const [feedback, setFeedback] = useState('');
+  const handleSubmit = async (e:React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+
+  if (first == "" && second=="" && email == "") {
+      alert("Please enter both name & email id");
+      return false;
+  }
+  await fetch('/api/send', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+  first: first,
+  second: second,
+  email: email,
+  designation: designation,
+  feedback: feedback,
+  }),
+  }).then((res) => res.json())
+  .then((data) => {
+  if (data) {
+  alert(`Thank you for your interest ${first}! We will get back to you soon!`);
+  setFirst("");
+  setSecond("");
+  setFeedback("");
+  setDesignation("");
+  setEmail("");
+  } else {
+      alert("Apologies! Please try again.");
+  }
+  })
+  .catch((err) => {
+      alert("Ooops! unfortunately some error has occurred.");
+  });
+  return true;
+};
   return (
     <div className="w-screen min-h-screen h-auto bg-red-600 ">
       <HeroHighlight>
@@ -25,27 +63,52 @@ export default function SignupFormDemo() {
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>
-            <Input id="firstname" placeholder="Samrat" type="text" />
+                <Input
+                  id="firstname"
+                  placeholder="Samrat"
+                  type="text"
+                  value={first}
+                  onChange={(e)=>setFirst(e.target.value)}
+                />
           </LabelInputContainer>
           <LabelInputContainer>
             <Label htmlFor="lastname">Last name</Label>
-            <Input id="lastname" placeholder="Das" type="text" />
+                <Input
+                  id="lastname"
+                  placeholder="Das"
+                  type="text"
+                  value={second}
+                  onChange={(e)=>setSecond(e.target.value)}
+                />
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="colddsam@gmail.com" type="email" />
+              <Input id="email"
+                placeholder="colddsam@gmail.com"
+                type="email"
+                value={email}
+                onChange={(e)=>setEmail(e.target.value)}
+              />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="designation">Designation</Label>
-          <Input id="designation" placeholder="Your designation" type="text" />
+              <Input
+                id="designation"
+                placeholder="Your designation"
+                type="text"
+                value={designation}
+            onChange={(e)=>setDesignation(e.target.value)}
+                />
         </LabelInputContainer>
         <LabelInputContainer className="mb-8">
           <Label htmlFor="feedback">Your Feedback</Label>
           <Input
             id="feedback"
             placeholder="Your valuable feedback"
-            type="text"
+                type="text"
+                value={feedback}
+            onChange={(e)=>setFeedback(e.target.value)}
           />
         </LabelInputContainer>
 
