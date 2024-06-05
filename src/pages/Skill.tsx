@@ -25,7 +25,6 @@ export default function AnimatedPinDemo() {
       })
       .catch(error => console.error('Error fetching skills:', error));
   }, []); 
-// dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]
   return (
     <div className="h-auto w-screen relative flex p-4 flex-wrap items-center justify-center mb-12 bg-black/[0.96] antialiased bg-grid-white/[0.075]">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center p-4 box-border"></div>

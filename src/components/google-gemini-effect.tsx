@@ -26,7 +26,7 @@ export const GoogleGeminiEffect = ({
         {title || `Achievements`}
       </p>
       <p className="mt-4 font-normal text-base text-neutral-300 max-w-xl text-center mx-auto px-3">
-        Driven by <Highlight className="text-black dark:text-white">passion</Highlight> defined by <Highlight className="text-black dark:text-white">results</Highlight>. Explore my journey of turning aspirations into accomplishments in the <Highlight className="text-black dark:text-white">achievement section.
+        Driven by <Highlight className="text-white">passion</Highlight> defined by <Highlight className="text-white">results</Highlight>. Explore my journey of turning aspirations into accomplishments in the <Highlight className="text-white">achievement section.
         </Highlight>
       </p>
       <svg

@@ -14,10 +14,10 @@ export default function SignupFormDemo() {
     <div className="w-screen min-h-screen h-auto bg-red-600 ">
       <HeroHighlight>
 <div className="max-w-md w-full min-h-screen h-auto mx-auto rounded-sm md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
-      <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200 flex flex-row items-center justify-center text-center">
+      <h2 className="font-bold text-xl text-neutral-200 flex flex-row items-center justify-center text-center">
         Thanks for visiting my portfolio
       </h2>
-      <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300 flex flex-row items-center justify-center text-center">
+      <p className=" text-sm max-w-sm mt-2 text-neutral-300 flex flex-row items-center justify-center text-center">
         You can give me your valuable feedback from through this form
       </p>
 
@@ -50,7 +50,7 @@ export default function SignupFormDemo() {
         </LabelInputContainer>
 
         <button
-          className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
+          className="bg-gradient-to-br relative group/btn from-zinc-900 to-zinc-900  block bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
           Submit &rarr;

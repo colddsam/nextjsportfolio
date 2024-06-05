@@ -47,7 +47,7 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-xl group/bento hover:shadow-xl transition duration-700 shadow-input dark:shadow-none dark:bg-black dark:border-white/[0.2] bg-white border border-transparent overflow-hidden"
+          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-xl group/bento hover:shadow-xl transition duration-700 shadow-none bg-black border-white/[0.2] border overflow-hidden"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>

@@ -16,7 +16,7 @@ export default function VortexDemoSecond() {
             Skills
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-          <Highlight className="text-black dark:text-white">Strength</Highlight> lies in mastering oneself, adaptability in mastering change, and <Highlight className="text-black dark:text-white">success</Highlight> in mastering both.
+          <Highlight className="text-white">Strength</Highlight> lies in mastering oneself, adaptability in mastering change, and <Highlight className="text-white">success</Highlight> in mastering both.
         </p>
       </Vortex>
     </div>

@@ -22,39 +22,39 @@ const navItems = [
       name: "Mail",
       link: "mailto:colddsam@gmail.com",
       icon: (
-        <IconMail  className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconMail  className="h-4 w-4 text-white" />
       ),
   },
     {
       name: "Gitub",
       link: "https://github.com/colddsam",
       icon: (
-        <IconBrandGithub  className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconBrandGithub  className="h-4 w-4 text-white" />
       ),
     },
     {
       name: "Twitter",
       link: "https://x.com/colddsam",
-      icon: <IconBrandX  className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconBrandX  className="h-4 w-4 text-white" />,
     },
     {
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/colddsam/",
-      icon: <IconBrandLinkedin  className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconBrandLinkedin  className="h-4 w-4 text-white" />,
     },
 
     {
       name: "Instagram",
       link: "https://www.instagram.com/colddsam/",
       icon: (
-        <IconBrandInstagram  className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconBrandInstagram  className="h-4 w-4 text-white" />
       ),
   },
         {
       name: "Medium",
       link: "https://colddsam.medium.com/",
       icon: (
-        <IconBrandMedium  className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconBrandMedium  className="h-4 w-4 text-white" />
       ),
     },
   ];

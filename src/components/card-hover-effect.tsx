@@ -34,7 +34,7 @@ export const HoverEffect = ({
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block  rounded-2xl"
+                className="absolute inset-0 h-full w-full  bg-slate-800/[0.8] block  rounded-2xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -48,7 +48,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-        <div className="relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 m-0">
+        <div className="relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300  m-0">
             <span className="block sm:hidden">{item.icon}</span>
             <span className="hidden sm:block text-sm">{item.name}</span>
         </div>

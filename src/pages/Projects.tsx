@@ -28,7 +28,7 @@ export default function InfiniteMovingCardsDemo() {
       .catch(error => console.error('Error fetching skills:', error));
   }, []); 
   return (
-    <div className="min-h-screen h-auto rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen h-auto rounded-md flex flex-col antialiased bg-black bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       {
         data ? (
           <>

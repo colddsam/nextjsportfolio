@@ -110,7 +110,7 @@ export const Header = () => {
         Projects
       </h1>
       <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-        Welcome to my <Highlight className="text-black dark:text-white">creative hub.</Highlight>! Here, innovation thrives, and projects come to life with passion and purpose. Join me on a journey through a world where <Highlight className="text-black dark:text-white">imagination</Highlight> knows no limits.
+        Welcome to my <Highlight className="text-white">creative hub.</Highlight>! Here, innovation thrives, and projects come to life with passion and purpose. Join me on a journey through a world where <Highlight className="text-white">imagination</Highlight> knows no limits.
       </p>
     </div>
   );
