@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import { MultiStepLoader as Loader } from "@/components/multi-step-loader";
-import { IconSquareRoundedX } from "@tabler/icons-react";
 
 const loadingStates = [
   {
