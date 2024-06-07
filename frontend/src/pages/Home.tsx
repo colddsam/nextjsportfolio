@@ -2,11 +2,12 @@
 import React from "react";
 import { Spotlight } from "@/components/Spotlight";
 import { HoverBorderGradient } from "@/components/hover-border-gradient";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import dynamic from 'next/dynamic';
 import { FlipWords } from "@/components/flip-words";
-const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false });
+
+
+import Spline from '@splinetool/react-spline';
 
 
 export default function IntroSection() {
@@ -42,7 +43,9 @@ export default function IntroSection() {
       </div>
       </div>
       <div className="h-[60vh] w-screen md:h-screen  md:w-1/3 flex flex-col justify-center items-center p-4">
-          <Spline scene="https://prod.spline.design/uhcWnPhdW-Img2xA/scene.splinecode" />
+        <Spline
+        scene="https://prod.spline.design/VSYfrjUBfHYtVKxk/scene.splinecode" 
+      />
         </div>
     </div>
   );
