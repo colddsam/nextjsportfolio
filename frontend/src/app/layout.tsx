@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto({
+  subsets: ["latin"],
+  weight: ['400', '700','500'],
+  style: ['normal', 'italic'],
+  display: 'swap',});
 
 export const metadata: Metadata = {
   title: "colddsam",
@@ -28,6 +32,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/profile/favicon.ico'" sizes="any" />
+        <link
+            rel="icon"
+            href="/icon?<generated>"
+            type="image/<generated>"
+            sizes="<generated>"
+        />
+      </head>
       <body className={inter.className}>
         <Providers>
           {children}
