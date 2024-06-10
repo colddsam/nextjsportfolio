@@ -19,7 +19,7 @@ import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandM
 const navItems = [
     {
       name: "Mail",
-      link: "mailto:colddsam@gmail.com",
+      link: "mailto:samrat@colddsam.xyz",
       icon: (
         <IconMail  className="h-4 w-4 text-white" />
       ),
