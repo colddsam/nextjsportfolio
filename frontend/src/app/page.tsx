@@ -25,7 +25,7 @@ const navItems = [
       ),
     },
     {
-      name: "Gitub",
+      name: "GitHub",
       link: "https://github.com/colddsam",
       icon: (
         <IconBrandGithub  className="h-4 w-4 text-white" />
