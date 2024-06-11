@@ -23,7 +23,7 @@ const navItems = [
       icon: (
         <IconMail  className="h-4 w-4 text-white" />
       ),
-  },
+    },
     {
       name: "Gitub",
       link: "https://github.com/colddsam",
