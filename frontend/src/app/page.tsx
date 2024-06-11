@@ -1,19 +1,19 @@
 "use client"
 import { Suspense, useEffect } from 'react';
 import { LoadingProvider, useLoading } from '../context/LoadingContext';
-import InfiniteMovingCardsDemo from "@/pages/Projects";
-import BentoGridDemo from "@/pages/Achivements";
-import GoogleGeminiEffectDemo from "@/pages/Gemini";
-import IntroSection from "@/pages/Home";
-import HeroParallaxDemo from "@/pages/Parallax";
-import AnimatedPinDemo from "@/pages/Skill";
-import VortexDemoSecond from "@/pages/Vertex";
-import BackgroundBeamsDemo from "@/pages/Events";
-import GlobeDemo from "@/pages/GitHubGlobe";
-import SignupFormDemo from "@/pages/SignUp";
-import MultiStepLoaderDemo from "@/pages/Loading"
-import  WavyBackgroundDemo  from '@/pages/Experience';
-import StickyScrollRevealDemo from '@/pages/ExperienceGrid';
+import InfiniteMovingCardsDemo from "@/pages/home/Projects";
+import BentoGridDemo from "@/pages/home/Achivements";
+import GoogleGeminiEffectDemo from "@/pages/home/Gemini";
+import IntroSection from "@/pages/home/Home";
+import HeroParallaxDemo from "@/pages/home/Parallax";
+import AnimatedPinDemo from "@/pages/home/Skill";
+import VortexDemoSecond from "@/pages/home/Vertex";
+import BackgroundBeamsDemo from "@/pages/home/Events";
+import GlobeDemo from "@/pages/home/GitHubGlobe";
+import SignupFormDemo from "@/pages/home/SignUp";
+import MultiStepLoaderDemo from "@/pages/home/Loading"
+import  WavyBackgroundDemo  from '@/pages/home/Experience';
+import StickyScrollRevealDemo from '@/pages/home/ExperienceGrid';
 import { FloatingNav } from "@/components/floating-navbar";
 import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium,IconBrandGithub } from "@tabler/icons-react";
 const navItems = [
@@ -70,7 +70,7 @@ export default function Home() {
           <IntroSection />
           <VortexDemoSecond />
           <AnimatedPinDemo />
-            <WavyBackgroundDemo/>
+          <WavyBackgroundDemo/>
           <StickyScrollRevealDemo/>
           <HeroParallaxDemo />
           <InfiniteMovingCardsDemo/>

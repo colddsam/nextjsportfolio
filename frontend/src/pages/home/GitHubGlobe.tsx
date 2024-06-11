@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
 const World = dynamic(() => import("@/components/globe").then((m) => m.World), {

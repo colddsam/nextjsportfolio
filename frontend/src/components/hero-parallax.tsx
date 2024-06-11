@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import {Highlight} from "@/components/hero-highlight"
 
 import {
   motion,
@@ -109,9 +108,7 @@ export const Header = () => {
       <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
         Projects
       </h1>
-      <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto px-3">
-        Welcome to my <Highlight className="text-white">creative hub.</Highlight>! Here, innovation thrives, and projects come to life with passion and purpose. Join me on a journey through a world where <Highlight className="text-white">imagination</Highlight> knows no limits.
-      </p>
+      
     </div>
   );
 };
