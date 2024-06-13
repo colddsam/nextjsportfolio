@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://colddsam.xyz',
+    url: 'https://colddsam.dev',
     title: 'colddsam | Web Developer & Machine Learning Enthusiast',
     description: "Discover colddsam's professional portfolio showcasing cutting-edge web development projects, innovative machine learning solutions, app development expertise, and problem-solving skills. Explore achievements, experience, and skills in full-stack development, graphics design, and more. Contact colddsam for collaborations and opportunities.",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: 'Explore the portfolio of colddsam, showcasing projects, skills, achievements, and experience in web development, machine learning, app development, and problem-solving.',
     images: ['/images/profile/1200x628.png'],
   },
-  metadataBase: new URL("https://colddsam.xyz"),
+  metadataBase: new URL("https://colddsam.dev"),
 };
 
 export const viewport = {
@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/profile/favicon.ico" sizes="any" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://colddsam.xyz" />
+        <meta property="og:url" content="https://colddsam.dev" />
         <meta property="og:title" content="colddsam | Web Developer & Machine Learning Enthusiast" />
         <meta property="og:description" content="Discover colddsam's professional portfolio showcasing cutting-edge web development projects, innovative machine learning solutions, app development expertise, and problem-solving skills. Explore achievements, experience, and skills in full-stack development, graphics design, and more. Contact colddsam for collaborations and opportunities." />
         <meta property="og:image" content="/images/profile/1200x630.png" />
