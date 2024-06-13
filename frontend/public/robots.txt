@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /private/
+Disallow: /archive/
+
+User-agent: *
+Allow: /
+Disallow: /not-for-public/
+
+Sitemap: https://colddsam.dev/sitemap.xml
