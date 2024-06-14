@@ -1,6 +1,6 @@
 "use client"
 import { Suspense, useEffect } from 'react';
-import { LoadingProvider, useLoading } from '../context/LoadingContext';
+import { LoadingProvider, useLoading } from '@/context/LoadingContext';
 import InfiniteMovingCardsDemo from "@/pages/home/Projects";
 import BentoGridDemo from "@/pages/home/Achivements";
 import GoogleGeminiEffectDemo from "@/pages/home/Gemini";
@@ -16,6 +16,7 @@ import  WavyBackgroundDemo  from '@/pages/home/Experience';
 import StickyScrollRevealDemo from '@/pages/home/ExperienceGrid';
 import { FloatingNav } from "@/components/floating-navbar";
 import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium,IconBrandGithub } from "@tabler/icons-react";
+import Footer from '@/pages/home/Footer';
 const navItems = [
     {
       name: "Mail",
@@ -79,6 +80,7 @@ export default function Home() {
           <BackgroundBeamsDemo/>
           <GlobeDemo/>
           <SignupFormDemo />
+          <Footer/>
         </Suspense>
       </LoadingProvider>
     </main>

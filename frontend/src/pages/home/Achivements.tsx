@@ -62,7 +62,7 @@ export default function BentoGridDemo() {
   );
 }
 const Skeleton = ({ image }: { image?: string; }) => (
-  <div className="relative w-full h-full bg-gradient-to-br from-[#efebf1] to-[#a6a6a6] rounded-lg overflow-hidden flex justify-center items-center">
+  <div className="relative w-full h-full bg-gradient-to-br from-[#2B4162] to-[#12100E] rounded-lg overflow-hidden flex justify-center items-center">
     {
       image?<Image src={image} alt="achievements" width={1000} height={1000} />:''
     }
