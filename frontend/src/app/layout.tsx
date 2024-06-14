@@ -12,7 +12,7 @@ const inter = Roboto({
 
 export const metadata: Metadata = {
   title: "colddsam | Web Developer & Machine Learning Enthusiast",
-  description: "Discover colddsam's professional portfolio showcasing cutting-edge web development projects, innovative machine learning solutions, app development expertise, and problem-solving skills. Explore achievements, experience, and skills in full-stack development, graphics design, and more. Contact colddsam for collaborations and opportunities.",
+  description: "Welcome to my portfolio. Explore my projects, skills, achievements, experiences in web development, machine learning, app development and problem solving.",
   authors: [{ name: "colddsam", url: "https://github.com/colddsam" }],
   keywords: [
     "colddsam", "web developer", "full-stack developer", "portfolio", "projects", 
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "mobile app development", "frontend development", "backend development", 
     "graphics design", "software development", "full-stack development", 
     "JavaScript", "React", "Node.js", "Python", "contact", "hire web developer", 
-    "hire machine learning engineer"
+    "hire machine learning engineer","attended","events list","colddsam","visiting","narula","narula institute of technology","tech","developer","learning","feedback","connect","world"
   ],
   creator: "colddsam",
   icons: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://colddsam.dev',
     title: 'colddsam | Web Developer & Machine Learning Enthusiast',
-    description: "Discover colddsam's professional portfolio showcasing cutting-edge web development projects, innovative machine learning solutions, app development expertise, and problem-solving skills. Explore achievements, experience, and skills in full-stack development, graphics design, and more. Contact colddsam for collaborations and opportunities.",
+    description: "Welcome to my portfolio. Explore my projects, skills, achievements, experiences in web development, machine learning, app development and problem solving.",
     images: [
       {
         url: '/images/profile/1200x630.png',
@@ -53,11 +53,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://colddsam.dev"),
 };
 
-export const viewport = {
-  width: "device-width",
-  initialScale: 1,
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -68,10 +63,11 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/profile/favicon.ico" sizes="any" />
+        <meta name="next-size-adjust" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://colddsam.dev" />
         <meta property="og:title" content="colddsam | Web Developer & Machine Learning Enthusiast" />
-        <meta property="og:description" content="Discover colddsam's professional portfolio showcasing cutting-edge web development projects, innovative machine learning solutions, app development expertise, and problem-solving skills. Explore achievements, experience, and skills in full-stack development, graphics design, and more. Contact colddsam for collaborations and opportunities." />
+        <meta property="og:description" content="Explore the portfolio of colddsam, showcasing projects, skills, achievements, and experience in web development, machine learning, app development, and problem-solving." />
         <meta property="og:image" content="/images/profile/1200x630.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@colddsam" />

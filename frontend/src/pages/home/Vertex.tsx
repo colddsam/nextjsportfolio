@@ -11,9 +11,9 @@ export default function VortexDemoSecond() {
         baseHue={120}
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-screen h-screen"
       >
-        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        <h2 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Skills
-        </h1>
+        </h2>
       </Vortex>
     </div>
   );

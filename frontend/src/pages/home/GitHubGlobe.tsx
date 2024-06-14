@@ -396,9 +396,9 @@ export default function GlobeDemo() {
   return (
     <div className="flex flex-row items-center justify-center h-screen md:h-auto md:min-h-screen relative w-full mt-10">
           <div className="max-w-7xl flex flex-col items-center justify-center mx-auto w-full relative overflow-hidden h-full md:h-screen px-4 mb-5">
-            <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-0 md:-mb-5">
+            <h2 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-0 md:-mb-5">
                 Lets Connect Folks!!!
-            </h1>
+            </h2>
        
         <div className="w-auto md:w-full h-[300px] md:h-full z-10 md:overflow-hidden ">
           <World data={sampleArcs} globeConfig={globeConfig} />

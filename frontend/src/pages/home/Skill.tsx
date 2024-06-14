@@ -26,7 +26,7 @@ export default function AnimatedPinDemo() {
       .catch(error => console.error('Error fetching skills:', error));
   }, []); 
   return (
-    <div className="h-auto w-screen relative flex p-4 flex-wrap items-center justify-center mb-12 bg-black/[0.96] antialiased bg-grid-white/[0.075]">
+    <div className="h-auto w-screen relative flex p-4 flex-wrap items-center justify-center mb-12 bg-black/[0.96] antialiased bg-dot-white/[0.2]">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center p-4 box-border"></div>
       {data ? data.map((item,index)=>(
         
@@ -36,9 +36,9 @@ export default function AnimatedPinDemo() {
           {item.name}
         </h3>
         <div className="text-xs !m-0 !p-0 font-normal">
-          <span className="text-slate-500 ">
+          <p className="text-slate-500 ">
             {item.description}
-          </span>
+          </p>
         </div>
         <div className="relative w-full h-full bg-gradient-to-br from-[#efebf1] to-[#a6a6a6] mt-3 rounded-lg p-4 overflow-hidden flex justify-center items-center">
           <Image src={item.image} width={100} height={100} alt={item.name} />

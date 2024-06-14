@@ -49,12 +49,12 @@ export const BentoGridItem = ({
             {date}
         </span>
         </div>
-        <div className="font-sans font-bold  text-neutral-200 mb-2 mt-2">
+        <h3 className="font-sans font-bold  text-neutral-200 mb-2 mt-2">
           {title}
-        </div>
-        <div className="font-sans font-normal  text-xs text-neutral-300">
+        </h3>
+        <p className="font-sans font-normal  text-xs text-neutral-300">
           {description}
-        </div>
+        </p>
       </div>
     </div>
   );

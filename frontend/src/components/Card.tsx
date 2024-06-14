@@ -17,7 +17,7 @@ export default function App({item}:Readonly<{
     <Card isFooterBlurred className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 md:w-[450px] col-span-12 sm:col-span-7 md:h-[300px] h-[250px] overflow-hidden">
       <CardHeader className="h-auto md:h-1/4 absolute bg-black/40 z-10 top-0 flex-col items-start">
         <p className="text-tiny text-white/60 uppercase font-bold truncate w-[90%]">{item.sub}</p>
-        <h4 className="text-white/90 font-medium text-xl">{item.title}</h4>
+        <h3 className="text-white/90 font-medium text-xl">{item.title}</h3>
       </CardHeader>
       <Image
         removeWrapper
@@ -33,8 +33,8 @@ export default function App({item}:Readonly<{
             src={item.logo}
           />
           <div className="flex flex-col">
-            <p className="text-tiny text-white/60">{item.date}</p>
-            <p className="text-tiny text-white/60">{item.language}</p>
+            <h4 className="text-tiny text-white/60">{item.date}</h4>
+            <h4 className="text-tiny text-white/60">{item.language}</h4>
           </div>
         </div>
         <Link href={item.link}>

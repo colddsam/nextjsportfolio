@@ -11,7 +11,7 @@ export default function Page() {
   }, [router]);
 
   return (
-    <div className="min-h-screen h-auto w-screen flex flex-col items-center justify-center  bg-black/[0.96] antialiased bg-grid-white/[0.075] relative overflow-hidden">
+    <div className="min-h-screen h-auto w-screen flex flex-col items-center justify-center  bg-black/[0.96] antialiased bg-dot-white/[0.2] relative overflow-hidden">
               <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"

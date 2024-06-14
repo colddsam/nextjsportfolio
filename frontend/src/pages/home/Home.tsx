@@ -10,7 +10,7 @@ import Spline from '@splinetool/react-spline';
 export default function IntroSection() {
     const words = ["Techies!!", "Devs!!", "Friends!!", "Folks!!"];
   return (
-    <div className="min-h-screen h-auto w-screen flex flex-col md:flex-row items-center justify-center md:justify-between bg-black/[0.96] antialiased bg-grid-white/[0.075] relative overflow-hidden">
+    <div className="min-h-screen h-auto w-screen flex flex-col md:flex-row items-center justify-center md:justify-between bg-black/[0.96] antialiased bg-dot-white/[0.2] relative overflow-hidden">
         <Spotlight
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"
@@ -28,7 +28,7 @@ export default function IntroSection() {
           <p className="mt-4 font-normal text-sm md:text-base text-neutral-300 w-full text-center mx-auto md:flex md:flex-row md:items-center md:justify-start md:text-start">
             A ML developer with a knack for problem-solving and a passion for continuous learning. Currently pursuing my B-Tech in ECE at Narula Institute of Technology, Kolkata. Let&apos;s connect and explore the world of tech together!
           </p>
-          <div className="mt-5 flex flex-row justify-center md:justify-start w-full items-center">
+          <h4 className="mt-5 flex flex-row justify-center md:justify-start w-full items-center">
             <Link href='https://drive.google.com/file/d/10jZy-G-tbZZqSadPt_Yf8u6PKhIkpyfC/view?usp=sharing'>
               <HoverBorderGradient
                 containerClassName="rounded-full"
@@ -38,7 +38,7 @@ export default function IntroSection() {
                 <span>My Resume</span>
               </HoverBorderGradient>
             </Link>
-          </div>
+          </h4>
         </div>
       </div>
       <div className="h-[60vh] w-screen md:h-screen md:w-1/3 flex flex-col justify-center items-center p-4">

@@ -33,9 +33,9 @@ const [data,setData]=useState<Events[]|null>(null)
         className="max-w-2xl mx-auto p-4 flex flex-col items-center justify-center"
         style={{ position: 'relative', zIndex: 10 }} // Ensure this div is visible and on top
       >
-        <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+        <h2 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
           My Attended Events
-        </h1>
+        </h2>
         <div
           className="flex flex-col items-center justify-center mb-10 h-auto mt-6 w-[70vw]"
         >
