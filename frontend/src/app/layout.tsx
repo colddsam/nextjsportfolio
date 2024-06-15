@@ -4,7 +4,6 @@ import "./globals.css";
 import { Providers } from "./providers";
 import GoogleAnalytics from './GoogleAnalytics';
 
-
 const inter = Roboto({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
@@ -17,13 +16,13 @@ export const metadata: Metadata = {
   description: "Welcome to my portfolio. Explore my projects, skills, achievements, experiences in web development, machine learning, app development and problem solving.",
   authors: [{ name: "colddsam", url: "https://github.com/colddsam" }],
   keywords: [
-    "colddsam", "web developer", "full-stack developer", "portfolio", "projects", 
-    "skills", "experience", "achievements", "problem-solving", "machine learning", 
-    "machine learning engineer", "web development", "app development", 
-    "mobile app development", "frontend development", "backend development", 
-    "graphics design", "software development", "full-stack development", 
-    "JavaScript", "React", "Node.js", "Python", "contact", "hire web developer", 
-    "hire machine learning engineer","attended","events list","colddsam","visiting","narula","narula institute of technology","tech","developer","learning","feedback","connect","world"
+    "colddsam", "web developer", "full-stack developer", "portfolio", "projects",
+    "skills", "experience", "achievements", "problem-solving", "machine learning",
+    "machine learning engineer", "web development", "app development",
+    "mobile app development", "frontend development", "backend development",
+    "graphics design", "software development", "full-stack development",
+    "JavaScript", "React", "Node.js", "Python", "contact", "hire web developer",
+    "hire machine learning engineer", "attended", "events list", "colddsam", "visiting", "narula", "narula institute of technology", "tech", "developer", "learning", "feedback", "connect", "world"
   ],
   creator: "colddsam",
   icons: {
@@ -64,6 +63,61 @@ export default function RootLayout({
     <html lang="en">
       <GoogleAnalytics />
       <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Samrat",
+          "alternateName": "colddsam",
+          "url": "https://colddsam.dev",
+          "image": "https://colddsam.dev/profile.jpg",
+          "sameAs": [
+            "https://github.com/colddsam",
+            "https://twitter.com/colddsam",
+            "https://www.linkedin.com/in/colddsam",
+            "https://www.instagram.com/colddsam",
+            "https://colddsam.medium.com"
+          ],
+          "jobTitle": "Web Developer & Machine Learning Enthusiast",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Narula Institute of Technology",
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kolkata",
+                "addressCountry": "India"
+              }
+            }
+          },
+          "knowsAbout": ["Machine Learning", "Web Development", "Problem Solving", "Artificial Intelligence", "Data Science"],
+          "workLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kolkata",
+              "addressCountry": "India"
+            }
+          },
+          "email": "mailto:contact@colddsam.dev",
+          "description": "A passionate Machine Learning developer with a strong background in web development and problem-solving. Enthusiastic about continuous learning and sharing knowledge through various platforms.",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Self-Employed"
+          },
+          "hasOccupation": [{
+            "@type": "Occupation",
+            "name": "Web Developer",
+            "description": "Developing responsive and modern web applications using latest technologies.",
+            "skills": ["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js"]
+          },
+          {
+            "@type": "Occupation",
+            "name": "Machine Learning Engineer",
+            "description": "Creating and optimizing machine learning models for various applications.",
+            "skills": ["Python", "TensorFlow", "Keras", "scikit-learn", "Data Analysis"]
+          }]
+        }) }} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/profile/favicon.ico" sizes="any" />
         <meta name="next-size-adjust" />

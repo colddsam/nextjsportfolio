@@ -15,6 +15,7 @@ import GlobeDemo from "@/pages/home/GitHubGlobe";
 import SignupFormDemo from "@/pages/home/SignUp";
 import  WavyBackgroundDemo  from '@/pages/home/Experience';
 import StickyScrollRevealDemo from '@/pages/home/ExperienceGrid';
+import ThankYou from '@/pages/home/ThankYou';
 import Loading from './loading';
 const navItems = [
   {
@@ -81,6 +82,7 @@ export default function Home() {
           <BackgroundBeamsDemo />
           <GlobeDemo />
           <SignupFormDemo />
+          <ThankYou/>
           <Footer />
         </Suspense>
     </main>
