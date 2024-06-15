@@ -28,17 +28,26 @@ export default function IntroSection() {
           <p className="mt-4 font-normal text-sm md:text-base text-neutral-300 w-full text-center mx-auto md:flex md:flex-row md:items-center md:justify-start md:text-start">
             A ML developer with a knack for problem-solving and a passion for continuous learning. Currently pursuing my B-Tech in ECE at Narula Institute of Technology, Kolkata. Let&apos;s connect and explore the world of tech together!
           </p>
-          <h4 className="mt-5 flex flex-row justify-center md:justify-start w-full items-center">
+          <div className="mt-5 flex flex-row justify-center md:justify-start w-full items-center">
             <Link href='https://drive.google.com/file/d/10jZy-G-tbZZqSadPt_Yf8u6PKhIkpyfC/view?usp=sharing'>
               <HoverBorderGradient
-                containerClassName="rounded-full"
+                containerClassName="rounded-[10px] mr-4 w-[105px]"
                 as="button"
                 className="bg-zinc-900 text-sm md:text-base text-white flex items-center"
               >
-                <span>My Resume</span>
+                <span>Resume</span>
               </HoverBorderGradient>
             </Link>
-          </h4>
+            <Link href='/quiz'>
+              <HoverBorderGradient
+                containerClassName="rounded-[10px]  w-[105px]"
+                as="button"
+                className="bg-zinc-900 text-sm md:text-base text-white flex items-center"
+              >
+                <span>Puzzle</span>
+              </HoverBorderGradient>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="h-[60vh] w-screen md:h-screen md:w-1/3 flex flex-col justify-center items-center p-4">
