@@ -16,14 +16,51 @@ export const metadata: Metadata = {
   description: "Welcome to my portfolio. Explore my projects, skills, achievements, experiences in web development, machine learning, app development and problem solving.",
   authors: [{ name: "colddsam", url: "https://github.com/colddsam" }],
   keywords: [
-    "colddsam", "web developer", "full-stack developer", "portfolio", "projects",
-    "skills", "experience", "achievements", "problem-solving", "machine learning",
-    "machine learning engineer", "web development", "app development",
-    "mobile app development", "frontend development", "backend development",
-    "graphics design", "software development", "full-stack development",
-    "JavaScript", "React", "Node.js", "Python", "contact", "hire web developer",
-    "hire machine learning engineer", "attended", "events list", "colddsam", "visiting", "narula", "narula institute of technology", "tech", "developer", "learning", "feedback", "connect", "world"
-  ],
+  "colddsam",
+  "Web Developer",
+  "Machine Learning Enthusiast",
+  "Samrat Kumar Das",
+  "Narula Institute of Technology",
+  "Portfolio",
+  "Projects",
+  "Skills",
+  "Achievements",
+  "Experiences",
+  "Contact",
+  "Hire Web Developer",
+  "Hire Machine Learning Engineer",
+  "Graphics Designer",
+  "Software Developer",
+  "Full-Stack Developer",
+  "App Development",
+  "Mobile App Development",
+  "Frontend Development",
+  "Backend Development",
+  "Machine Learning Engineer",
+  "Web Development",
+  "Problem Solving",
+  "Marketing",
+  "PR Management",
+  "Python",
+  "ResNet Architecture",
+  "Graphic Design Intern",
+  "Hack4Bengal",
+  "Machine Learning Model",
+  "Research Paper",
+  "Blog Writing",
+  "Machine Learning Blogs",
+  "IoT Blogs",
+  "React JS",
+  "Gemini API",
+  "AI",
+  "Docker",
+  "TensorFlow",
+  "Flutter",
+  "Firebase",
+  "Automation",
+  "API Building"
+]
+,
   creator: "colddsam",
   icons: {
     icon: ['/images/profile/favicon.ico'],
@@ -120,17 +157,23 @@ export default function RootLayout({
         }) }} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/profile/favicon.ico" sizes="any" />
+        <link rel="canonical" href="https://colddsam.dev" />
         <meta name="next-size-adjust" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://colddsam.dev" />
         <meta property="og:title" content="colddsam | Web Developer & Machine Learning Enthusiast" />
         <meta property="og:description" content="Explore the portfolio of colddsam, showcasing projects, skills, achievements, and experience in web development, machine learning, app development, and problem-solving." />
         <meta property="og:image" content="/images/profile/1200x630.png" />
+        <meta property="og:site_name" content="colddsam"/>
+        <meta property="article:author" content="https://www.facebook.com/colddsam"/>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@colddsam" />
         <meta name="twitter:title" content="colddsam | Web Developer & Machine Learning Enthusiast" />
         <meta name="twitter:description" content="Explore the portfolio of colddsam, showcasing projects, skills, achievements, and experience in web development, machine learning, app development, and problem-solving." />
         <meta name="twitter:image" content="/images/profile/1200x628.png" />
+         <meta property="og:see_also" content="https://www.linkedin.com/in/colddsam"/>
+    
+    <meta property="og:see_also" content="https://www.instagram.com/colddsam"/>
       </head>
       <body className={inter.className}>
         <Providers>
