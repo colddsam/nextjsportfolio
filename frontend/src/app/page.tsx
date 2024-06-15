@@ -16,7 +16,6 @@ import SignupFormDemo from "@/pages/home/SignUp";
 import  WavyBackgroundDemo  from '@/pages/home/Experience';
 import StickyScrollRevealDemo from '@/pages/home/ExperienceGrid';
 import Loading from './loading';
-
 const navItems = [
   {
     name: "Mail",

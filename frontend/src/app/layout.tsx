@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
+import GoogleAnalytics from './GoogleAnalytics';
+
 
 const inter = Roboto({
   subsets: ["latin"],
@@ -60,6 +62,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/profile/favicon.ico" sizes="any" />
