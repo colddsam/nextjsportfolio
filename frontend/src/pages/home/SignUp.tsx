@@ -71,9 +71,9 @@ export default function SignupFormDemo() {
   return true;
 };
   return (
-    <div className="w-screen min-h-screen h-auto bg-red-600 ">
+    <div className="w-screen min-h-screen h-auto  ">
       <HeroHighlight>
-        <div className="max-w-md w-full min-h-screen h-auto mx-auto rounded-sm md:rounded-2xl p-4 md:p-8 shadow-input bg-black">
+        <div className="max-w-md w-full h-auto mx-auto rounded-sm md:rounded-2xl p-7 md:p-8 shadow-input bg-black">
           {loading?<MeteorsDemo setLoading={setLoading} title={title} description={description}/>:''}
       <h2 className="font-bold text-xl text-neutral-200 flex flex-row items-center justify-center text-center">
         Thanks for visiting my portfolio
