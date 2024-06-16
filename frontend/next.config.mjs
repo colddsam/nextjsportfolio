@@ -2,7 +2,6 @@
 const nextConfig = {
 reactStrictMode: true,
   images: {
-    domains: ['api.microlink.io'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -11,6 +10,10 @@ reactStrictMode: true,
       {
         protocol: 'https',
         hostname: 'api.microlink.io',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
       },
     ],
   },

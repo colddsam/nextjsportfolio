@@ -41,7 +41,7 @@ export default function AnimatedPinDemo() {
           </p>
         </div>
         <div className="relative w-full h-full bg-gradient-to-br from-[#2B4162] to-[#12100E] mt-3 rounded-lg p-4 overflow-hidden flex justify-center items-center">
-          <Image src={item.image} width={100} height={100} alt={item.name} />
+          <Image src={process.env.NEXT_PUBLIC_CLOUDINARY_URL+item.image} width={100} height={100} alt={item.name} />
         </div>
       </div>
     </PinContainer>

@@ -120,7 +120,7 @@ export const StickyScroll = ({
       >
     {content[activeCard] && content[activeCard].link ? 
         <Image
-          src={content[activeCard].link}
+          src={process.env.NEXT_PUBLIC_CLOUDINARY_URL+content[activeCard].link}
           width={300}
           height={300}
           className="h-full w-full object-cover"

@@ -51,7 +51,7 @@ export default function BentoGridDemo() {
           key={i}
           title={item.title}
           description={item.description}
-          header={<Skeleton image={item.header} />}
+          header={<Skeleton image={process.env.NEXT_PUBLIC_CLOUDINARY_URL+item.header} />}
           icon={icons[i % icons.length]}
           className={i % 3 === 0 && i != 0 ? "md:col-span-2" : ""}
           date={item.date}

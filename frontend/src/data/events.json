@@ -3,66 +3,66 @@
         "id":1,
         "name":"No Code November",
         "community":"GDC Kolkata",
-        "image":"/images/events/gdgcloudkol.webp"
+        "image":"v1718514609/gdgcloudkol_qthxmd.webp"
     },
         {
         "id":2,
         "name":"Droid Fest 2023",
         "community":"Kotlin Group Kolkata",
-        "image":"/images/events/droidfest.webp"
+        "image":"v1718514608/droidfest_f74jlf.webp"
     },
     {
         "id":3,
         "name":"CCD 2023",
         "community":"GDC Kolkata",
-        "image":"/images/events/ccd.webp"
+        "image":"v1718514603/ccd_crpazt.webp"
     },
     {
         "id":4,
         "name":"Hack 4 Bengal 2.0",
         "community":"H4B Community",
-        "image":"/images/events/h4b.jpg"
+        "image":"v1718514609/h4b_tf9ttc.jpg"
     },
     {
         "id":5,
         "name":"I/O Extended GDG",
         "community":"GDG Kolkata",
-        "image":"/images/events/io.webp"
+        "image":"v1718514610/ioc_jwbqes.webp"
     },
     {
         "id":6,
         "name":"Fastn Roadshow",
         "community":"Fastn India",
-        "image":"/images/events/fastn.webp"
+        "image":"v1718514608/fastn_gafdto.webp"
     },
     {
         "id":7,
         "name":"Keras Community Day",
         "community":"TFUG kolkata",
-        "image":"/images/events/KERAS.webp"
+        "image":"v1718514613/KERAS_dodj4o.webp"
     },
     {
         "id":8,
         "name":"DevFest Ranchi 2023",
         "community":"GDG Ranchi",
-        "image":"/images/events/devfest.webp"
+        "image":"v1718514605/devfest_zvjlbm.webp"
     },
     {
         "id":9,
         "name":"DevFest Durgapur 2023",
         "community":"GDG Durgapur",
-        "image":"/images/events/devdurg.jpg"
+        "image":"v1718514604/devdurg_hllmdg.jpg"
     },
     {
         "id":10,
         "name":"DevFest Kolkata 2023",
         "community":"GDG Kolkata",
-        "image":"/images/events/devkol.png"
+        "image":"v1718514605/devkol_vboayw.png"
     },
         {
         "id":11,
         "name":"Droid Fest 2024",
         "community":"Kotlin Group Kolkata",
-        "image":"/images/events/droid.jpg"
+        "image":"v1718514606/droid_iuywfi.jpg"
     }
 ]

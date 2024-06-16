@@ -63,9 +63,8 @@ const navItems = [
 // const GlobeDemo = React.lazy(() => import("@/pages/home/GitHubGlobe"));
 // const SignupFormDemo = React.lazy(() => import("@/pages/home/SignUp"));
 
-
-
 export default function Home() {
+
   return (
     <main className="h-auto w-screen flex box-border flex-col bg-black ">
         <Suspense fallback={<Loading />}>

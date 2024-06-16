@@ -23,14 +23,14 @@ export default function App({item}:Readonly<{
         removeWrapper
         alt={item.title}
         className="z-0 w-full h-full object-cover"
-        src={item.thumbnail}
+        src={process.env.NEXT_PUBLIC_CLOUDINARY_URL+item.thumbnail}
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-100">
         <div className="flex flex-grow gap-2 items-center">
           <Image
             alt={item.language}
             className="rounded-full w-10 h-11 bg-black"
-            src={item.logo}
+            src={process.env.NEXT_PUBLIC_CLOUDINARY_URL+item.logo}
           />
           <div className="flex flex-col">
             <h4 className="text-tiny text-white/60">{item.date}</h4>
