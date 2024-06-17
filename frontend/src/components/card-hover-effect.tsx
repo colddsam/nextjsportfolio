@@ -14,7 +14,7 @@ const scrollToSection = (id: string): void => {
   const startPosition = window.scrollY;
   const targetPosition = element.getBoundingClientRect().top + startPosition;
   const startTime = performance.now();
-  const duration = 1000; 
+  const duration = 2000; 
 
   const animateScroll = (currentTime: number) => {
     const elapsedTime = currentTime - startTime;
