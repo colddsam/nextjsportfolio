@@ -29,7 +29,7 @@ export default function IntroSection() {
             A ML developer with a knack for problem-solving and a passion for continuous learning. Currently pursuing my B-Tech in ECE at Narula Institute of Technology, Kolkata. Let&apos;s connect and explore the world of tech together!
           </p>
           <div className="mt-5 flex flex-row justify-center md:justify-start w-full items-center">
-            <Link href='https://drive.google.com/file/d/10jZy-G-tbZZqSadPt_Yf8u6PKhIkpyfC/view?usp=sharing'>
+            <a href='/resume/resume.pdf' download>
               <HoverBorderGradient
                 containerClassName="rounded-[10px] mr-4 w-[105px]"
                 as="button"
@@ -37,7 +37,7 @@ export default function IntroSection() {
               >
                 <span>Resume</span>
               </HoverBorderGradient>
-            </Link>
+            </a>
             <Link href='/quiz'>
               <HoverBorderGradient
                 containerClassName="rounded-[10px]  w-[105px]"
