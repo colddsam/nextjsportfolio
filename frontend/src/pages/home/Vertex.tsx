@@ -15,7 +15,7 @@ export default function VortexDemoSecond() {
             Skills
         </h2>
         <p className="qiukyu font-medium text-lg md:text-2xl text-center px-6 md:px-0">
-        Oh, I've got skills. Some even say I can code with my eyes closed (but I wouldn't recommend it though)
+        Oh, I&apos;ve got skills. Some even say I can code with my eyes closed (but I wouldn&apos;t recommend it though)
         </p>
       </Vortex>
     </div>

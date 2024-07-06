@@ -26,8 +26,7 @@ export default function IntroSection() {
             </span>
           </h1>
           <p className="mt-4 qiukyu font-medium text-lg md:text-2xl text-neutral-300 w-full text-center mx-auto md:flex md:flex-row md:items-center md:justify-start md:text-start">
-          Welcome to my digital lair. Feel free to browse around, just don't feed the virtual animals!
-            {/* A ML developer with a knack for problem-solving and a passion for continuous learning. Currently pursuing my B-Tech in ECE at Narula Institute of Technology, Kolkata. Let&apos;s connect and explore the world of tech together! */}
+          Welcome to my digital lair. Feel free to browse around, just don&apos;t feed the virtual animals!
           </p>
           <div className="mt-5 flex qiukyu font-medium text-base md:text-2xl flex-row justify-center md:justify-start w-full items-center">
             <a href='/resume/resume.pdf' download>

@@ -9,8 +9,8 @@ export default function WavyBackgroundDemo() {
             Experience
         </h2>
         <p className="qiukyu font-medium text-lg md:text-2xl text-center px-6 md:px-0">
-        Check out my career highlights! From coding triumphs to debugging disasters,<br className="none"/>
-        my journey's been a rollercoaster of tech-tastic adventures!
+        Check out my career highlights! From coding triumphs to debugging disasters<br className="none"/>
+        my journey&apos;s been a rollercoaster of tech-tastic adventures!
         </p>
     </WavyBackground>
   );
