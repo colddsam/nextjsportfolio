@@ -400,7 +400,7 @@ export default function GlobeDemo() {
                 Lets Connect Folks!!!
             </h2>
             <p className="qiukyu font-medium text-lg md:text-2xl text-center px-6 md:px-0">
-            Let's get in touch! I promise not to flood your inbox with cat memes. Well, maybe just one or two.
+            Let&apos;s get in touch! I promise not to flood your inbox with cat memes. Well, maybe just one or two.
             </p>
        
         <div className="w-auto md:w-full h-[300px] md:h-full z-10 md:overflow-hidden ">
