@@ -1,47 +1,96 @@
 [
-    {   "name":"Web Development",
-        "description":"Crafting seamless digital experiences across web.",
-        "image":"v1718514184/web-development_wk8hey.png",
-        "percentage":"80%"
-    },
-    {   "name":"App Development",
-        "description":"Creating dynamic software for mobile platforms",
-        "image":"v1718514183/development_vwfs3s.png",
-        "percentage":"70%"
-    },
-    {   "name":"ML Engineering",
-        "description":"Crafting precise, data-driven intelligent systems.",
-        "image":"v1718514183/ml_duudzl.png",
-        "percentage":"75%"
-    },
-    {   "name":"Data Analysis",
-        "description":"Analyzing data for actionable insights efficiently.",
-        "image":"v1718514184/datascience_cjozz9.png",
-        "percentage":"75%"
-    },
-    {   "name":"IOT",
-        "description":"Crafting smart systems for connectivity.",
-        "image":"v1718514184/iot_fhfstz.png",
-        "percentage":"85%"
-    },
-    {   "name":"Automation",
-        "description":"Automating processes with efficient, intelligent systems.",
-        "image":"v1718514183/automation_ogxc3s.png",
-        "percentage":"90%"
-    },
-    {   "name":"Graphics Designing",
-        "description":"Creating visually stunning designs with precision.",
-        "image":"v1718514184/graphic-designer_mlx4ou.png",
-        "percentage":"90%"
-    },
-    {   "name":"API Building",
-        "description":"Crafting robust, scalable APIs for integration.",
-        "image":"v1718514183/api_tkhows.png",
-        "percentage":"80%"
-    },
-    {   "name":"Marketing",
-        "description":"Crafting compelling strategies for effective outreach.",
-        "image":"v1718514183/social-media_dr8xs2.png",
-        "percentage":"85%"
-    }
+    [
+        {   "name":"Web Development",
+            "description":"Crafting seamless digital experiences across web.",
+            "image":"v1718514184/web-development_wk8hey.png",
+            "percentage":65
+        },
+        {   "name":"App Development",
+            "description":"Creating dynamic software for mobile platforms",
+            "image":"v1718514183/development_vwfs3s.png",
+            "percentage":65
+        },
+        {   "name":"ML Engineering",
+            "description":"Crafting precise, data-driven intelligent systems.",
+            "image":"v1718514183/ml_duudzl.png",
+            "percentage":70
+        },
+        {   "name":"Data Analysis",
+            "description":"Analyzing data for actionable insights efficiently.",
+            "image":"v1718514184/datascience_cjozz9.png",
+            "percentage":60
+        },
+        {   "name":"IOT",
+            "description":"Crafting smart systems for connectivity.",
+            "image":"v1718514184/iot_fhfstz.png",
+            "percentage":70
+        },
+        {   "name":"Automation",
+            "description":"Automating processes with efficient, intelligent systems.",
+            "image":"v1718514183/automation_ogxc3s.png",
+            "percentage":70
+        },
+        {   "name":"Graphics Designing",
+            "description":"Creating visually stunning designs with precision.",
+            "image":"v1718514184/graphic-designer_mlx4ou.png",
+            "percentage":80
+        },
+        {   "name":"API Building",
+            "description":"Crafting robust, scalable APIs for integration.",
+            "image":"v1718514183/api_tkhows.png",
+            "percentage":70
+        },
+        {   "name":"Marketing",
+            "description":"Crafting compelling strategies for effective outreach.",
+            "image":"v1718514183/social-media_dr8xs2.png",
+            "percentage":50
+        }
+    ],
+    [
+        {   "name":"Web Development",
+            "description":"Crafting seamless digital experiences across web.",
+            "image":"v1718514184/web-development_wk8hey.png",
+            "percentage":80
+        },
+        {   "name":"App Development",
+            "description":"Creating dynamic software for mobile platforms",
+            "image":"v1718514183/development_vwfs3s.png",
+            "percentage":70
+        },
+        {   "name":"ML Engineering",
+            "description":"Crafting precise, data-driven intelligent systems.",
+            "image":"v1718514183/ml_duudzl.png",
+            "percentage":75
+        },
+        {   "name":"Data Analysis",
+            "description":"Analyzing data for actionable insights efficiently.",
+            "image":"v1718514184/datascience_cjozz9.png",
+            "percentage":75
+        },
+        {   "name":"IOT",
+            "description":"Crafting smart systems for connectivity.",
+            "image":"v1718514184/iot_fhfstz.png",
+            "percentage":85
+        },
+        {   "name":"Automation",
+            "description":"Automating processes with efficient, intelligent systems.",
+            "image":"v1718514183/automation_ogxc3s.png",
+            "percentage":90
+        },
+        {   "name":"Graphics Designing",
+            "description":"Creating visually stunning designs with precision.",
+            "image":"v1718514184/graphic-designer_mlx4ou.png",
+            "percentage":90
+        },
+        {   "name":"API Building",
+            "description":"Crafting robust, scalable APIs for integration.",
+            "image":"v1718514183/api_tkhows.png",
+            "percentage":80
+        },
+        {   "name":"Marketing",
+            "description":"Crafting compelling strategies for effective outreach.",
+            "image":"v1718514183/social-media_dr8xs2.png",
+            "percentage":85
+        }
+    ]
 ]

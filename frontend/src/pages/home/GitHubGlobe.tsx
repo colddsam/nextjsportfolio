@@ -396,9 +396,12 @@ export default function GlobeDemo() {
   return (
     <div className="flex flex-row items-center justify-center h-screen md:h-auto md:min-h-screen relative w-full mt-10">
           <div className="max-w-7xl flex flex-col items-center justify-center mx-auto w-full relative overflow-hidden h-full md:h-screen px-4 mb-5">
-            <h2 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-0 md:-mb-5">
+            <h2 className="text-4xl md:text-7xl  text-center inred  bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
                 Lets Connect Folks!!!
             </h2>
+            <p className="qiukyu font-medium text-lg md:text-2xl text-center px-6 md:px-0">
+            Let's get in touch! I promise not to flood your inbox with cat memes. Well, maybe just one or two.
+            </p>
        
         <div className="w-auto md:w-full h-[300px] md:h-full z-10 md:overflow-hidden ">
           <World data={sampleArcs} globeConfig={globeConfig} />

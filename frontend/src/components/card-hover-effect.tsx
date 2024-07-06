@@ -77,7 +77,7 @@ export const HoverEffect: React.FC<HoverEffectProps> = ({ items, className }) =>
                 />
               )}
             </AnimatePresence>
-            <div className="relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300 m-0">
+            <div className="relative inred font-thin text-neutral-50 items-center flex space-x-1 hover:text-neutral-300 m-0">
               <span className="block sm:hidden">{item.icon}</span>
               <span className="hidden sm:block text-sm">{item.name}</span>
             </div>

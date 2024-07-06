@@ -75,14 +75,14 @@ export default function SignupFormDemo() {
       <HeroHighlight>
         <div className="max-w-md w-full h-auto mx-auto rounded-sm md:rounded-2xl p-7 md:p-8 shadow-input bg-black">
           {loading?<MeteorsDemo setLoading={setLoading} title={title} description={description}/>:''}
-      <h2 className="font-bold text-xl text-neutral-200 flex flex-row items-center justify-center text-center">
+      <h2 className=" text-xl inred text-neutral-200 flex flex-row items-center justify-center text-center">
         Thanks for visiting my portfolio
       </h2>
-      <p className=" text-sm max-w-sm mt-2 text-neutral-300 flex flex-row items-center justify-center text-center">
+      <p className="qiukyu text-base max-w-sm mt-2 text-neutral-300 flex flex-row items-center justify-center text-center">
         You can give me your valuable feedback from through this form
       </p>
 
-      <form className="my-5" onSubmit={handleSubmit}>
+      <form className="my-5 inred font-thin" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
             <Label htmlFor="firstname">First name</Label>

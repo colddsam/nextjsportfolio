@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face { 
+  font-family: "qiukyu"; 
+  src: url('/fonts/qiukyu.regular.otf'); 
+  /* src: url('/fonts/Modern Grunge/Modern Grunge.ttf') format('truetype');  */
+  font-weight: normal; 
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: "inred"; 
+  src: url('/fonts/inred-world.regular.otf'); 
+  /* src: url('/fonts/Modern Grunge/Modern Grunge.ttf') format('truetype');  */
+  font-weight: normal; 
+  font-style: normal; 
+} 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

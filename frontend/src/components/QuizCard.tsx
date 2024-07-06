@@ -3,7 +3,10 @@ import { CardStack } from "@/components/card-stack";
 import { cn } from "@/utils/cn";
 export function CardStackDemo() {
   return (
-      <CardStack items={CARDS} />
+    <div className="h-screen w-screen flex flex-col items-center justify-center bg-pink-800">
+      {/* <CardStack items={CARDS} /> */}
+    </div>
+
   );
 }
 

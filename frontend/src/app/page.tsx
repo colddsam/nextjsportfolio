@@ -1,4 +1,5 @@
 "use client";
+import '@/styles/fontSave.css'
 import React,{ Suspense, useEffect } from 'react';
 import { FloatingNav } from "@/components/floating-navbar";
 import { IconBrandX, IconBrandLinkedin, IconMail, IconBrandInstagram, IconBrandMedium, IconBrandGithub,IconPrompt,IconHome,IconTimeline,IconBrain,IconTrophy,IconCalendarEvent,IconWorld } from "@tabler/icons-react";
@@ -18,6 +19,7 @@ import StickyScrollRevealDemo from '@/pages/home/ExperienceGrid';
 import ThankYou from '@/pages/home/ThankYou';
 import Loading from './loading';
 import Dock from '@/components/socials';
+import About from '@/pages/home/About';
 const socialItems = [
   {
     name: "Mail",
@@ -96,6 +98,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <section id="intro">
           <IntroSection />
+          <About/>
         </section>
         <section id="skills">
           <VortexDemoSecond />
@@ -104,6 +107,7 @@ export default function Home() {
         <section id="experiences">
           <WavyBackgroundDemo />
           <StickyScrollRevealDemo />
+
         </section>
         <section id="projects">
           <HeroParallaxDemo />

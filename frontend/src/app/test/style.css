@@ -1,0 +1,7 @@
+h2.textDecoration{
+    
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(148, 163, 184, 0.4);
+    color: transparent;
+}

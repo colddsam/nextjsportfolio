@@ -1,5 +1,5 @@
 ## colddsam Portfolio: A Showcase of Cutting-Edge Web Development using NextJS
-This project, hosted at [https://colddsam.xyz](https://colddsam.xyz), is a personal portfolio website designed and built by Samrat Das (colddsam), a web developer and machine learning enthusiast. The site leverages the power of Next.js, Tailwind CSS, and the Aceternity UI component library to deliver a visually stunning and highly interactive user experience. 
+This project, hosted at [https://colddsam.dev](https://colddsam.dev), is a personal portfolio website designed and built by Samrat Das (colddsam), a web developer and machine learning enthusiast. The site leverages the power of Next.js, Tailwind CSS, and the Aceternity UI component library to deliver a visually stunning and highly interactive user experience. 
 
 ### Project Goals
 
